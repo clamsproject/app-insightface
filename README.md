@@ -4,7 +4,7 @@ The InsightFace's Face Recognition tool, as implemented and provided by [this re
 
 This requires many modules including Torch and opencv. All required modules are listed in `requirements.txt`
 
-Before running the program, the file that contains the face recognition model's weights must be downloaded from [IR-SE50 @ BaiduNetdisk](https://pan.baidu.com/s/12BUjjwy1uUTEF9HCx5qvoQ) or from [IR-SE50 @ Onedrive](https://1drv.ms/u/s!AhMqVPD44cDOhkPsOU2S_HFpY9dC)
+Before running the program, the file that contains the face recognition model's weights must be downloaded from [IR-SE50 @ BaiduNetdisk](https://pan.baidu.com/s/12BUjjwy1uUTEF9HCx5qvoQ) or from [IR-SE50 @ Onedrive](https://1drv.ms/u/s!AhMqVPD44cDOhkPsOU2S_HFpY9dC). Then the file must be renamed to `model_cpu_final.pth` and put inside the new folder named `save`. Finally, the `save` folder must be put inside the `work_space` folder.
 
 The program face-recognizes one frame per second. For example, if the input video contains 30 frames per second, the frames that would be sent through the face recognition model are the 0th, 30th, 60th, 90th, ... frames, until the video ends.
 
