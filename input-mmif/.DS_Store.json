@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "mmif": "http://mmif.clams.ai/0.4.0"
+  },
+  "documents": [],
+  "views": [
+    {
+      "id": "v_0",
+      "metadata": {
+        "timestamp": "2022-12-13T21:28:47.855262",
+        "app": "",
+        "contains": {
+          "http://mmif.clams.ai/0.4.0/vocabulary/VideoDocument": {}
+        }
+      },
+      "annotations": [
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/VideoDocument",
+          "properties": {
+            "video": {
+              "@location": "video/.DS_Store"
+            },
+            "id": "v1"
+          }
+        }
+      ]
+    }
+  ]
+}

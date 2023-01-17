@@ -1,0 +1,2255 @@
+{
+  "metadata": {
+    "mmif": "http://mmif.clams.ai/0.4.0"
+  },
+  "documents": [
+    {
+      "@type": "http://mmif.clams.ai/0.4.0/vocabulary/VideoDocument",
+      "properties": {
+        "mime": "video",
+        "id": "d1",
+        "location": "file:///opt/clams/data/videos/Clinton_Lehrer.mp4"
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "v_0",
+      "metadata": {
+        "timestamp": "2023-01-17T03:55:23.380173",
+        "app": "https://apps.clams.ai/insightface",
+        "contains": {
+          "http://vocab.lappsgrid.org/Annotation": {
+            "document": "d1"
+          },
+          "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox": {
+            "document": "d1",
+            "timeUnit": "frames"
+          }
+        }
+      },
+      "annotations": [
+        {
+          "@type": "http://vocab.lappsgrid.org/Annotation",
+          "properties": {
+            "fps": 29.97002997002997,
+            "width": 640,
+            "height": 360,
+            "frame_count": 6605,
+            "id": "a1"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 0,
+            "name": "clinton",
+            "coordinates": [
+              [
+                283,
+                111
+              ],
+              [
+                405,
+                111
+              ],
+              [
+                283,
+                260
+              ],
+              [
+                405,
+                260
+              ]
+            ],
+            "id": "b1"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 30,
+            "name": "clinton",
+            "coordinates": [
+              [
+                282,
+                118
+              ],
+              [
+                403,
+                118
+              ],
+              [
+                282,
+                265
+              ],
+              [
+                403,
+                265
+              ]
+            ],
+            "id": "b2"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 60,
+            "name": "clinton",
+            "coordinates": [
+              [
+                284,
+                101
+              ],
+              [
+                406,
+                101
+              ],
+              [
+                284,
+                251
+              ],
+              [
+                406,
+                251
+              ]
+            ],
+            "id": "b3"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 90,
+            "name": "clinton",
+            "coordinates": [
+              [
+                270,
+                102
+              ],
+              [
+                396,
+                102
+              ],
+              [
+                270,
+                257
+              ],
+              [
+                396,
+                257
+              ]
+            ],
+            "id": "b4"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 120,
+            "name": "clinton",
+            "coordinates": [
+              [
+                284,
+                96
+              ],
+              [
+                404,
+                96
+              ],
+              [
+                284,
+                244
+              ],
+              [
+                404,
+                244
+              ]
+            ],
+            "id": "b5"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 150,
+            "name": "clinton",
+            "coordinates": [
+              [
+                287,
+                95
+              ],
+              [
+                407,
+                95
+              ],
+              [
+                287,
+                245
+              ],
+              [
+                407,
+                245
+              ]
+            ],
+            "id": "b6"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 180,
+            "name": "clinton",
+            "coordinates": [
+              [
+                286,
+                96
+              ],
+              [
+                407,
+                96
+              ],
+              [
+                286,
+                246
+              ],
+              [
+                407,
+                246
+              ]
+            ],
+            "id": "b7"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 630,
+            "name": "clinton",
+            "coordinates": [
+              [
+                282,
+                111
+              ],
+              [
+                404,
+                111
+              ],
+              [
+                282,
+                259
+              ],
+              [
+                404,
+                259
+              ]
+            ],
+            "id": "b8"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 660,
+            "name": "clinton",
+            "coordinates": [
+              [
+                282,
+                110
+              ],
+              [
+                403,
+                110
+              ],
+              [
+                282,
+                260
+              ],
+              [
+                403,
+                260
+              ]
+            ],
+            "id": "b9"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 690,
+            "name": "clinton",
+            "coordinates": [
+              [
+                281,
+                110
+              ],
+              [
+                402,
+                110
+              ],
+              [
+                281,
+                260
+              ],
+              [
+                402,
+                260
+              ]
+            ],
+            "id": "b10"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 750,
+            "name": "clinton",
+            "coordinates": [
+              [
+                275,
+                121
+              ],
+              [
+                393,
+                121
+              ],
+              [
+                275,
+                269
+              ],
+              [
+                393,
+                269
+              ]
+            ],
+            "id": "b11"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 810,
+            "name": "clinton",
+            "coordinates": [
+              [
+                270,
+                121
+              ],
+              [
+                396,
+                121
+              ],
+              [
+                270,
+                276
+              ],
+              [
+                396,
+                276
+              ]
+            ],
+            "id": "b12"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 870,
+            "name": "clinton",
+            "coordinates": [
+              [
+                280,
+                127
+              ],
+              [
+                406,
+                127
+              ],
+              [
+                280,
+                281
+              ],
+              [
+                406,
+                281
+              ]
+            ],
+            "id": "b13"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 900,
+            "name": "clinton",
+            "coordinates": [
+              [
+                280,
+                126
+              ],
+              [
+                406,
+                126
+              ],
+              [
+                280,
+                279
+              ],
+              [
+                406,
+                279
+              ]
+            ],
+            "id": "b14"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 1110,
+            "name": "clinton",
+            "coordinates": [
+              [
+                274,
+                134
+              ],
+              [
+                407,
+                134
+              ],
+              [
+                274,
+                295
+              ],
+              [
+                407,
+                295
+              ]
+            ],
+            "id": "b15"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 1170,
+            "name": "lehrer",
+            "coordinates": [
+              [
+                232,
+                96
+              ],
+              [
+                373,
+                96
+              ],
+              [
+                232,
+                270
+              ],
+              [
+                373,
+                270
+              ]
+            ],
+            "id": "b16"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 1260,
+            "name": "clinton",
+            "coordinates": [
+              [
+                267,
+                131
+              ],
+              [
+                402,
+                131
+              ],
+              [
+                267,
+                296
+              ],
+              [
+                402,
+                296
+              ]
+            ],
+            "id": "b17"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 1290,
+            "name": "clinton",
+            "coordinates": [
+              [
+                277,
+                123
+              ],
+              [
+                410,
+                123
+              ],
+              [
+                277,
+                286
+              ],
+              [
+                410,
+                286
+              ]
+            ],
+            "id": "b18"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 1380,
+            "name": "clinton",
+            "coordinates": [
+              [
+                267,
+                118
+              ],
+              [
+                402,
+                118
+              ],
+              [
+                267,
+                282
+              ],
+              [
+                402,
+                282
+              ]
+            ],
+            "id": "b19"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 1410,
+            "name": "clinton",
+            "coordinates": [
+              [
+                270,
+                121
+              ],
+              [
+                400,
+                121
+              ],
+              [
+                270,
+                279
+              ],
+              [
+                400,
+                279
+              ]
+            ],
+            "id": "b20"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 1620,
+            "name": "clinton",
+            "coordinates": [
+              [
+                272,
+                121
+              ],
+              [
+                403,
+                121
+              ],
+              [
+                272,
+                284
+              ],
+              [
+                403,
+                284
+              ]
+            ],
+            "id": "b21"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 1650,
+            "name": "clinton",
+            "coordinates": [
+              [
+                277,
+                115
+              ],
+              [
+                408,
+                115
+              ],
+              [
+                277,
+                278
+              ],
+              [
+                408,
+                278
+              ]
+            ],
+            "id": "b22"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 1680,
+            "name": "clinton",
+            "coordinates": [
+              [
+                285,
+                116
+              ],
+              [
+                419,
+                116
+              ],
+              [
+                285,
+                283
+              ],
+              [
+                419,
+                283
+              ]
+            ],
+            "id": "b23"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 1710,
+            "name": "clinton",
+            "coordinates": [
+              [
+                284,
+                124
+              ],
+              [
+                416,
+                124
+              ],
+              [
+                284,
+                284
+              ],
+              [
+                416,
+                284
+              ]
+            ],
+            "id": "b24"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 1860,
+            "name": "clinton",
+            "coordinates": [
+              [
+                255,
+                114
+              ],
+              [
+                393,
+                114
+              ],
+              [
+                255,
+                278
+              ],
+              [
+                393,
+                278
+              ]
+            ],
+            "id": "b25"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 1890,
+            "name": "clinton",
+            "coordinates": [
+              [
+                290,
+                92
+              ],
+              [
+                423,
+                92
+              ],
+              [
+                290,
+                257
+              ],
+              [
+                423,
+                257
+              ]
+            ],
+            "id": "b26"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 1920,
+            "name": "clinton",
+            "coordinates": [
+              [
+                272,
+                122
+              ],
+              [
+                402,
+                122
+              ],
+              [
+                272,
+                288
+              ],
+              [
+                402,
+                288
+              ]
+            ],
+            "id": "b27"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 1950,
+            "name": "clinton",
+            "coordinates": [
+              [
+                269,
+                131
+              ],
+              [
+                402,
+                131
+              ],
+              [
+                269,
+                289
+              ],
+              [
+                402,
+                289
+              ]
+            ],
+            "id": "b28"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 2160,
+            "name": "clinton",
+            "coordinates": [
+              [
+                273,
+                121
+              ],
+              [
+                407,
+                121
+              ],
+              [
+                273,
+                283
+              ],
+              [
+                407,
+                283
+              ]
+            ],
+            "id": "b29"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 2190,
+            "name": "clinton",
+            "coordinates": [
+              [
+                274,
+                122
+              ],
+              [
+                406,
+                122
+              ],
+              [
+                274,
+                282
+              ],
+              [
+                406,
+                282
+              ]
+            ],
+            "id": "b30"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 2220,
+            "name": "clinton",
+            "coordinates": [
+              [
+                274,
+                123
+              ],
+              [
+                406,
+                123
+              ],
+              [
+                274,
+                279
+              ],
+              [
+                406,
+                279
+              ]
+            ],
+            "id": "b31"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 2400,
+            "name": "clinton",
+            "coordinates": [
+              [
+                280,
+                108
+              ],
+              [
+                414,
+                108
+              ],
+              [
+                280,
+                272
+              ],
+              [
+                414,
+                272
+              ]
+            ],
+            "id": "b32"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 2430,
+            "name": "clinton",
+            "coordinates": [
+              [
+                307,
+                89
+              ],
+              [
+                443,
+                89
+              ],
+              [
+                307,
+                260
+              ],
+              [
+                443,
+                260
+              ]
+            ],
+            "id": "b33"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 2460,
+            "name": "clinton",
+            "coordinates": [
+              [
+                320,
+                93
+              ],
+              [
+                454,
+                93
+              ],
+              [
+                320,
+                258
+              ],
+              [
+                454,
+                258
+              ]
+            ],
+            "id": "b34"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 2520,
+            "name": "clinton",
+            "coordinates": [
+              [
+                296,
+                69
+              ],
+              [
+                428,
+                69
+              ],
+              [
+                296,
+                228
+              ],
+              [
+                428,
+                228
+              ]
+            ],
+            "id": "b35"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 2550,
+            "name": "lehrer",
+            "coordinates": [
+              [
+                201,
+                55
+              ],
+              [
+                353,
+                55
+              ],
+              [
+                201,
+                246
+              ],
+              [
+                353,
+                246
+              ]
+            ],
+            "id": "b36"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 2580,
+            "name": "lehrer",
+            "coordinates": [
+              [
+                227,
+                73
+              ],
+              [
+                374,
+                73
+              ],
+              [
+                227,
+                253
+              ],
+              [
+                374,
+                253
+              ]
+            ],
+            "id": "b37"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 2640,
+            "name": "lehrer",
+            "coordinates": [
+              [
+                214,
+                75
+              ],
+              [
+                363,
+                75
+              ],
+              [
+                214,
+                258
+              ],
+              [
+                363,
+                258
+              ]
+            ],
+            "id": "b38"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 2670,
+            "name": "lehrer",
+            "coordinates": [
+              [
+                207,
+                79
+              ],
+              [
+                356,
+                79
+              ],
+              [
+                207,
+                261
+              ],
+              [
+                356,
+                261
+              ]
+            ],
+            "id": "b39"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 2700,
+            "name": "lehrer",
+            "coordinates": [
+              [
+                204,
+                79
+              ],
+              [
+                355,
+                79
+              ],
+              [
+                204,
+                264
+              ],
+              [
+                355,
+                264
+              ]
+            ],
+            "id": "b40"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 2820,
+            "name": "clinton",
+            "coordinates": [
+              [
+                276,
+                120
+              ],
+              [
+                408,
+                120
+              ],
+              [
+                276,
+                285
+              ],
+              [
+                408,
+                285
+              ]
+            ],
+            "id": "b41"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 2970,
+            "name": "clinton",
+            "coordinates": [
+              [
+                279,
+                126
+              ],
+              [
+                413,
+                126
+              ],
+              [
+                279,
+                285
+              ],
+              [
+                413,
+                285
+              ]
+            ],
+            "id": "b42"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 3030,
+            "name": "lehrer",
+            "coordinates": [
+              [
+                244,
+                95
+              ],
+              [
+                395,
+                95
+              ],
+              [
+                244,
+                283
+              ],
+              [
+                395,
+                283
+              ]
+            ],
+            "id": "b43"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 3060,
+            "name": "lehrer",
+            "coordinates": [
+              [
+                232,
+                85
+              ],
+              [
+                375,
+                85
+              ],
+              [
+                232,
+                264
+              ],
+              [
+                375,
+                264
+              ]
+            ],
+            "id": "b44"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 3090,
+            "name": "clinton",
+            "coordinates": [
+              [
+                287,
+                118
+              ],
+              [
+                420,
+                118
+              ],
+              [
+                287,
+                282
+              ],
+              [
+                420,
+                282
+              ]
+            ],
+            "id": "b45"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 3210,
+            "name": "clinton",
+            "coordinates": [
+              [
+                288,
+                120
+              ],
+              [
+                421,
+                120
+              ],
+              [
+                288,
+                286
+              ],
+              [
+                421,
+                286
+              ]
+            ],
+            "id": "b46"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 3270,
+            "name": "clinton",
+            "coordinates": [
+              [
+                291,
+                111
+              ],
+              [
+                423,
+                111
+              ],
+              [
+                291,
+                277
+              ],
+              [
+                423,
+                277
+              ]
+            ],
+            "id": "b47"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 3360,
+            "name": "clinton",
+            "coordinates": [
+              [
+                268,
+                133
+              ],
+              [
+                404,
+                133
+              ],
+              [
+                268,
+                296
+              ],
+              [
+                404,
+                296
+              ]
+            ],
+            "id": "b48"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 3870,
+            "name": "clinton",
+            "coordinates": [
+              [
+                277,
+                125
+              ],
+              [
+                413,
+                125
+              ],
+              [
+                277,
+                288
+              ],
+              [
+                413,
+                288
+              ]
+            ],
+            "id": "b49"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 3900,
+            "name": "clinton",
+            "coordinates": [
+              [
+                294,
+                57
+              ],
+              [
+                426,
+                57
+              ],
+              [
+                294,
+                222
+              ],
+              [
+                426,
+                222
+              ]
+            ],
+            "id": "b50"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 3930,
+            "name": "clinton",
+            "coordinates": [
+              [
+                286,
+                93
+              ],
+              [
+                423,
+                93
+              ],
+              [
+                286,
+                265
+              ],
+              [
+                423,
+                265
+              ]
+            ],
+            "id": "b51"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 4020,
+            "name": "clinton",
+            "coordinates": [
+              [
+                259,
+                115
+              ],
+              [
+                396,
+                115
+              ],
+              [
+                259,
+                284
+              ],
+              [
+                396,
+                284
+              ]
+            ],
+            "id": "b52"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 4350,
+            "name": "clinton",
+            "coordinates": [
+              [
+                290,
+                115
+              ],
+              [
+                425,
+                115
+              ],
+              [
+                290,
+                284
+              ],
+              [
+                425,
+                284
+              ]
+            ],
+            "id": "b53"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 4380,
+            "name": "clinton",
+            "coordinates": [
+              [
+                304,
+                115
+              ],
+              [
+                433,
+                115
+              ],
+              [
+                304,
+                273
+              ],
+              [
+                433,
+                273
+              ]
+            ],
+            "id": "b54"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 4410,
+            "name": "clinton",
+            "coordinates": [
+              [
+                292,
+                114
+              ],
+              [
+                425,
+                114
+              ],
+              [
+                292,
+                277
+              ],
+              [
+                425,
+                277
+              ]
+            ],
+            "id": "b55"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 4440,
+            "name": "clinton",
+            "coordinates": [
+              [
+                290,
+                105
+              ],
+              [
+                424,
+                105
+              ],
+              [
+                290,
+                277
+              ],
+              [
+                424,
+                277
+              ]
+            ],
+            "id": "b56"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 4470,
+            "name": "clinton",
+            "coordinates": [
+              [
+                291,
+                116
+              ],
+              [
+                429,
+                116
+              ],
+              [
+                291,
+                284
+              ],
+              [
+                429,
+                284
+              ]
+            ],
+            "id": "b57"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 4530,
+            "name": "clinton",
+            "coordinates": [
+              [
+                293,
+                114
+              ],
+              [
+                426,
+                114
+              ],
+              [
+                293,
+                279
+              ],
+              [
+                426,
+                279
+              ]
+            ],
+            "id": "b58"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 4620,
+            "name": "clinton",
+            "coordinates": [
+              [
+                285,
+                108
+              ],
+              [
+                417,
+                108
+              ],
+              [
+                285,
+                277
+              ],
+              [
+                417,
+                277
+              ]
+            ],
+            "id": "b59"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 4920,
+            "name": "clinton",
+            "coordinates": [
+              [
+                277,
+                123
+              ],
+              [
+                412,
+                123
+              ],
+              [
+                277,
+                288
+              ],
+              [
+                412,
+                288
+              ]
+            ],
+            "id": "b60"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 4950,
+            "name": "clinton",
+            "coordinates": [
+              [
+                273,
+                115
+              ],
+              [
+                408,
+                115
+              ],
+              [
+                273,
+                275
+              ],
+              [
+                408,
+                275
+              ]
+            ],
+            "id": "b61"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 4980,
+            "name": "clinton",
+            "coordinates": [
+              [
+                269,
+                115
+              ],
+              [
+                402,
+                115
+              ],
+              [
+                269,
+                278
+              ],
+              [
+                402,
+                278
+              ]
+            ],
+            "id": "b62"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 5040,
+            "name": "clinton",
+            "coordinates": [
+              [
+                255,
+                116
+              ],
+              [
+                397,
+                116
+              ],
+              [
+                255,
+                286
+              ],
+              [
+                397,
+                286
+              ]
+            ],
+            "id": "b63"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 5070,
+            "name": "clinton",
+            "coordinates": [
+              [
+                262,
+                120
+              ],
+              [
+                398,
+                120
+              ],
+              [
+                262,
+                282
+              ],
+              [
+                398,
+                282
+              ]
+            ],
+            "id": "b64"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 5100,
+            "name": "clinton",
+            "coordinates": [
+              [
+                270,
+                109
+              ],
+              [
+                403,
+                109
+              ],
+              [
+                270,
+                272
+              ],
+              [
+                403,
+                272
+              ]
+            ],
+            "id": "b65"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 5130,
+            "name": "clinton",
+            "coordinates": [
+              [
+                276,
+                124
+              ],
+              [
+                408,
+                124
+              ],
+              [
+                276,
+                282
+              ],
+              [
+                408,
+                282
+              ]
+            ],
+            "id": "b66"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 5280,
+            "name": "clinton",
+            "coordinates": [
+              [
+                269,
+                116
+              ],
+              [
+                402,
+                116
+              ],
+              [
+                269,
+                277
+              ],
+              [
+                402,
+                277
+              ]
+            ],
+            "id": "b67"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 5430,
+            "name": "clinton",
+            "coordinates": [
+              [
+                298,
+                119
+              ],
+              [
+                429,
+                119
+              ],
+              [
+                298,
+                275
+              ],
+              [
+                429,
+                275
+              ]
+            ],
+            "id": "b68"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 5550,
+            "name": "clinton",
+            "coordinates": [
+              [
+                278,
+                110
+              ],
+              [
+                412,
+                110
+              ],
+              [
+                278,
+                272
+              ],
+              [
+                412,
+                272
+              ]
+            ],
+            "id": "b69"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 5610,
+            "name": "clinton",
+            "coordinates": [
+              [
+                290,
+                116
+              ],
+              [
+                423,
+                116
+              ],
+              [
+                290,
+                281
+              ],
+              [
+                423,
+                281
+              ]
+            ],
+            "id": "b70"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 5700,
+            "name": "lehrer",
+            "coordinates": [
+              [
+                235,
+                72
+              ],
+              [
+                385,
+                72
+              ],
+              [
+                235,
+                264
+              ],
+              [
+                385,
+                264
+              ]
+            ],
+            "id": "b71"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 5760,
+            "name": "lehrer",
+            "coordinates": [
+              [
+                223,
+                79
+              ],
+              [
+                375,
+                79
+              ],
+              [
+                223,
+                273
+              ],
+              [
+                375,
+                273
+              ]
+            ],
+            "id": "b72"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 5790,
+            "name": "lehrer",
+            "coordinates": [
+              [
+                228,
+                86
+              ],
+              [
+                377,
+                86
+              ],
+              [
+                228,
+                274
+              ],
+              [
+                377,
+                274
+              ]
+            ],
+            "id": "b73"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 5820,
+            "name": "lehrer",
+            "coordinates": [
+              [
+                235,
+                100
+              ],
+              [
+                378,
+                100
+              ],
+              [
+                235,
+                276
+              ],
+              [
+                378,
+                276
+              ]
+            ],
+            "id": "b74"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 5910,
+            "name": "clinton",
+            "coordinates": [
+              [
+                292,
+                114
+              ],
+              [
+                423,
+                114
+              ],
+              [
+                292,
+                282
+              ],
+              [
+                423,
+                282
+              ]
+            ],
+            "id": "b75"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 5940,
+            "name": "clinton",
+            "coordinates": [
+              [
+                292,
+                119
+              ],
+              [
+                424,
+                119
+              ],
+              [
+                292,
+                279
+              ],
+              [
+                424,
+                279
+              ]
+            ],
+            "id": "b76"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 5970,
+            "name": "clinton",
+            "coordinates": [
+              [
+                291,
+                119
+              ],
+              [
+                423,
+                119
+              ],
+              [
+                291,
+                279
+              ],
+              [
+                423,
+                279
+              ]
+            ],
+            "id": "b77"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 6060,
+            "name": "lehrer",
+            "coordinates": [
+              [
+                246,
+                75
+              ],
+              [
+                388,
+                75
+              ],
+              [
+                246,
+                259
+              ],
+              [
+                388,
+                259
+              ]
+            ],
+            "id": "b78"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 6090,
+            "name": "lehrer",
+            "coordinates": [
+              [
+                190,
+                53
+              ],
+              [
+                333,
+                53
+              ],
+              [
+                190,
+                235
+              ],
+              [
+                333,
+                235
+              ]
+            ],
+            "id": "b79"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 6120,
+            "name": "lehrer",
+            "coordinates": [
+              [
+                187,
+                49
+              ],
+              [
+                329,
+                49
+              ],
+              [
+                187,
+                231
+              ],
+              [
+                329,
+                231
+              ]
+            ],
+            "id": "b80"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 6240,
+            "name": "clinton",
+            "coordinates": [
+              [
+                291,
+                110
+              ],
+              [
+                426,
+                110
+              ],
+              [
+                291,
+                279
+              ],
+              [
+                426,
+                279
+              ]
+            ],
+            "id": "b81"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 6330,
+            "name": "clinton",
+            "coordinates": [
+              [
+                289,
+                114
+              ],
+              [
+                422,
+                114
+              ],
+              [
+                289,
+                279
+              ],
+              [
+                422,
+                279
+              ]
+            ],
+            "id": "b82"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 6420,
+            "name": "clinton",
+            "coordinates": [
+              [
+                290,
+                116
+              ],
+              [
+                421,
+                116
+              ],
+              [
+                290,
+                278
+              ],
+              [
+                421,
+                278
+              ]
+            ],
+            "id": "b83"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 6510,
+            "name": "clinton",
+            "coordinates": [
+              [
+                296,
+                110
+              ],
+              [
+                429,
+                110
+              ],
+              [
+                296,
+                272
+              ],
+              [
+                429,
+                272
+              ]
+            ],
+            "id": "b84"
+          }
+        },
+        {
+          "@type": "http://mmif.clams.ai/0.4.0/vocabulary/BoundingBox",
+          "properties": {
+            "timepoint": 6540,
+            "name": "clinton",
+            "coordinates": [
+              [
+                299,
+                108
+              ],
+              [
+                432,
+                108
+              ],
+              [
+                299,
+                274
+              ],
+              [
+                432,
+                274
+              ]
+            ],
+            "id": "b85"
+          }
+        }
+      ]
+    }
+  ]
+}
